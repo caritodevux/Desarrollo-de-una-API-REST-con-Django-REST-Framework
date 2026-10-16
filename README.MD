@@ -11,7 +11,7 @@
 - Sql viewer
 
 ## En el proyecto creado en visual:
--Hacer un .gitignore para el venv:
+- Hacer un .gitignore para el venv:
 ```
 venv/
 .venv/
@@ -26,9 +26,27 @@ git config --global user.email "tu_correo@ejemplo.com"
 ```
 
 Recuerda:
-`git add . `(prepara los cambios nuevos)
-`git commit -m "Describe lo que hiciste aquí"` (guarda localmente)
-`git push` (sube a GitHub)
+- `git add . `(prepara los cambios nuevos)
+- `git commit -m "Describe lo que hiciste aquí"` (guarda localmente)
+- `git push` (sube a GitHub)
+
+## 
+1. Ejecutar:
+- python -m venv venv
+En Windows activar el entorno utilizando:
+- venv\Scripts\activate
+
+2. Django: 
+pip install django
+pip install djangorestframework
+
+3. Probar:
+python manage.py runserver
+http://127.0.0.1:8000/
+http://127.0.0.1:8000/admin/
+http://127.0.0.1:8000/api/tareas/
+
+4. Contraseña usuarios: Clave123
 
 ## Responder:
 1. ¿Qué es una API?
